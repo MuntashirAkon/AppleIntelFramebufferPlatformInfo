@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		872A54DF1F276C69004ED3CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 872A54DE1F276C69004ED3CD /* main.m */; };
+		879A42641F2A61C600E2DBA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 879A42631F2A61C600E2DBA1 /* main.m */; };
+		879A426A1F2A8B1000E2DBA1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 879A42691F2A8B1000E2DBA1 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		872A54DB1F276C69004ED3CD /* ExtractIGPlatformID */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ExtractIGPlatformID; sourceTree = BUILT_PRODUCTS_DIR; };
-		872A54DE1F276C69004ED3CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		872A54DB1F276C69004ED3CD /* AppleIntelFramebufferPlatformInfo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AppleIntelFramebufferPlatformInfo; sourceTree = BUILT_PRODUCTS_DIR; };
+		879A42631F2A61C600E2DBA1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AppleIntelFramebufferPlatformInfo/main.m; sourceTree = "<group>"; };
+		879A42671F2A720C00E2DBA1 /* platform_data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = platform_data.h; path = AppleIntelFramebufferPlatformInfo/platform_data.h; sourceTree = "<group>"; };
+		879A42681F2A8B1000E2DBA1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		879A42691F2A8B1000E2DBA1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +45,9 @@
 		872A54D21F276C69004ED3CD = {
 			isa = PBXGroup;
 			children = (
-				872A54DD1F276C69004ED3CD /* ExtractIGPlatformID */,
+				879A42681F2A8B1000E2DBA1 /* LICENSE */,
+				879A42691F2A8B1000E2DBA1 /* README.md */,
+				879A42621F2A61B400E2DBA1 /* AppleIntelFramebufferPlatformInfo */,
 				872A54DC1F276C69004ED3CD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +55,26 @@
 		872A54DC1F276C69004ED3CD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				872A54DB1F276C69004ED3CD /* ExtractIGPlatformID */,
+				872A54DB1F276C69004ED3CD /* AppleIntelFramebufferPlatformInfo */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		872A54DD1F276C69004ED3CD /* ExtractIGPlatformID */ = {
+		879A42621F2A61B400E2DBA1 /* AppleIntelFramebufferPlatformInfo */ = {
 			isa = PBXGroup;
 			children = (
-				872A54DE1F276C69004ED3CD /* main.m */,
+				879A42631F2A61C600E2DBA1 /* main.m */,
+				879A42671F2A720C00E2DBA1 /* platform_data.h */,
 			);
-			path = ExtractIGPlatformID;
+			name = AppleIntelFramebufferPlatformInfo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		872A54DA1F276C69004ED3CD /* ExtractIGPlatformID */ = {
+		872A54DA1F276C69004ED3CD /* AppleIntelFramebufferPlatformInfo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 872A54E21F276C69004ED3CD /* Build configuration list for PBXNativeTarget "ExtractIGPlatformID" */;
+			buildConfigurationList = 872A54E21F276C69004ED3CD /* Build configuration list for PBXNativeTarget "AppleIntelFramebufferPlatformInfo" */;
 			buildPhases = (
 				872A54D71F276C69004ED3CD /* Sources */,
 				872A54D81F276C69004ED3CD /* Frameworks */,
@@ -77,9 +84,9 @@
 			);
 			dependencies = (
 			);
-			name = ExtractIGPlatformID;
+			name = AppleIntelFramebufferPlatformInfo;
 			productName = ExtractIGPlatformID;
-			productReference = 872A54DB1F276C69004ED3CD /* ExtractIGPlatformID */;
+			productReference = 872A54DB1F276C69004ED3CD /* AppleIntelFramebufferPlatformInfo */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -93,11 +100,12 @@
 				TargetAttributes = {
 					872A54DA1F276C69004ED3CD = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6X692P9AQ8;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 872A54D61F276C69004ED3CD /* Build configuration list for PBXProject "ExtractIGPlatformID" */;
+			buildConfigurationList = 872A54D61F276C69004ED3CD /* Build configuration list for PBXProject "AppleIntelFramebufferPlatformInfo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -109,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				872A54DA1F276C69004ED3CD /* ExtractIGPlatformID */,
+				872A54DA1F276C69004ED3CD /* AppleIntelFramebufferPlatformInfo */,
 			);
 		};
 /* End PBXProject section */
@@ -119,7 +127,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				872A54DF1F276C69004ED3CD /* main.m in Sources */,
+				879A426A1F2A8B1000E2DBA1 /* README.md in Sources */,
+				879A42641F2A61C600E2DBA1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +157,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Mac Developer: muntashir.islam96@gmail.com (8Y57H839Z9)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -196,7 +205,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Mac Developer: muntashir.islam96@gmail.com (8Y57H839Z9)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -218,36 +227,47 @@
 		872A54E31F276C69004ED3CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = 6X692P9AQ8;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		872A54E41F276C69004ED3CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = 6X692P9AQ8;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		872A54D61F276C69004ED3CD /* Build configuration list for PBXProject "ExtractIGPlatformID" */ = {
+		872A54D61F276C69004ED3CD /* Build configuration list for PBXProject "AppleIntelFramebufferPlatformInfo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				872A54E01F276C69004ED3CD /* Debug */,
 				872A54E11F276C69004ED3CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		872A54E21F276C69004ED3CD /* Build configuration list for PBXNativeTarget "ExtractIGPlatformID" */ = {
+		872A54E21F276C69004ED3CD /* Build configuration list for PBXNativeTarget "AppleIntelFramebufferPlatformInfo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				872A54E31F276C69004ED3CD /* Debug */,
 				872A54E41F276C69004ED3CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
